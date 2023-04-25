@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+  align-items: center;
+}
+
+.container {
+  /* display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center; */
+  margin: 400px;
+  padding: 20px;
+  width: 330px;
+  height: 550px;
+  border-radius: 25px;
+  background-color: hsl(216, 50%, 16%);
+  box-shadow: 15px 35px 5px hsl(217, 54%, 11%);
+}
+
+.nft-img {
+  border-radius: 25px;
+  width: 100%;
+  height: fit-content;
+  padding-bottom: 15px;
+}
+
+.nft-name {
+  font-size: 20px;
+  color: #fff;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  /* padding-bottom: 15px; */
+}
+
+.nft-name:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.info {
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+  font-weight: 100;
+  font-family: "Outfit", sans-serif;
+  text-align: left;
+  line-height: 1.4;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.price-time {
+  display: flex;
+  /* justify-content: space-between; */
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+  font-family: "Outfit", sans-serif;
+}
+
+.eth {
+  padding-left: 7px;
+}
+
+.days {
+  padding-left: 7px;
+}
+
+.time {
+  padding-left: 90px;
+  color: hsl(215, 51%, 70%);
+  font-family: "Outfit", sans-serif;
+  font-weight: 100;
+  display: flex;
+}
+
+.nft-author {
+  display: flex;
+  border-top: 1px solid hsl(215, 32%, 27%);
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.author-info {
+  display: flex;
+  margin-left: 15px;
+  padding-top: 10px;
+}
+
+.author {
+  color: hsl(215, 51%, 70%);
+  font-family: "Outfit", sans-serif;
+  font-weight: 200;
+}
+
+.author-img {
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 25px;
+}
+
+a:link {
+  color: hsl(0, 0%, 100%);
+  padding-left: 7px;
+  text-decoration: none;
+}
+
+a:visited {
+  color: hsl(0, 0%, 100%);
+}
+
+a:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+
+a:active {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
