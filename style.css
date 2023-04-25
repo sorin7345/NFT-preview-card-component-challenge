@@ -18,7 +18,10 @@ body {
   justify-content: center;
   text-align: center;
   align-items: center; */
-  margin: 400px;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 50px;
+  margin-bottom: 55px;
   padding: 20px;
   width: 330px;
   height: 550px;
